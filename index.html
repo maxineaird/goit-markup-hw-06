@@ -425,19 +425,22 @@
           </ul>
         </div>
         <form class="subscribe-form">
-          <label for="subscribe-email" class="subscribe-text">Subscribe</label>
-          <input
-            type="email"
-            class="subscribe-input"
-            name="subscribe-email"
-            id="subscribe-email"
-            placeholder="E-mail"
-          />
-          <div class="footer-subscribe-wrap">
-            <button type="submit" class="subscribe-btn">Subscribe <svg class="subscribe-icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-subscribe"></use>
-            </svg></button>
-            
+          <p class="subscribe-text">Subscribe</p>
+          <label for="subscribe-email"></label>
+          <div class="subscribe-field">
+            <input
+              type="email"
+              class="subscribe-input"
+              name="subscribe-email"
+              id="subscribe-email"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="subscribe-btn">
+              Subscribe
+              <svg class="subscribe-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-subscribe"></use>
+              </svg>
+            </button>
           </div>
         </form>
       </div>
@@ -523,7 +526,9 @@
                   <use href="./images/icons.svg#icon-check"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the Privacy Policy</label
+              I accept the terms and conditions of the&nbsp;<a href=""
+                >Privacy Policy</a
+              ></label
             >
           </div>
           <button type="submit" class="modal-btn">Send</button>
